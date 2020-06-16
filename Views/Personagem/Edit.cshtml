@@ -1,0 +1,83 @@
+@model ficha_criacao_personagem_rpg_csharp.Models.PersonagemViewModel
+@{
+    ViewData["Title"] = "Editar produtos";
+}
+
+<div>
+    <h2 class="text-center">Personagem</h2>
+    
+    <hr/>
+
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Salvar">
+                <input type="hidden" asp-for="Id" />
+                <div asp-validation-summary="ModelOnly" class="text-danger">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label">Nome</label>
+                    <input type="text" asp-for="Nome" class="form-control" disabled/>
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Raca" class="control-label">Raça</label>
+                    <input type="text" asp-for="Raca" class="form-control" disabled/>
+                    <span asp-validation-for="Raca" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Classe" class="control-label">Classe</label>
+                    <input type="text" asp-for="Classe" class="form-control" disabled/>
+                    <span asp-validation-for="Classe" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nivel" class="control-label">Nível</label>
+                    <input type="text" asp-for="Nivel" class="form-control"/>
+                    <span asp-validation-for="Nivel" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Agilidade" class="control-label">Agilidade</label>
+                    <input type="text" asp-for="Agilidade" class="form-control"/>
+                    <span asp-validation-for="Agilidade" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ataque" class="control-label">Ataque</label>
+                    <input type="text" asp-for="Ataque" class="form-control"/>
+                    <span asp-validation-for="Ataque" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Carisma" class="control-label">Carisma</label>
+                    <input type="text" asp-for="Carisma" class="form-control"/>
+                    <span asp-validation-for="Carisma" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Defesa" class="control-label">Defesa</label>
+                    <input type="text" asp-for="Defesa" class="form-control"/>
+                    <span asp-validation-for="Defesa" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Destreza" class="control-label">Destreza</label>
+                    <input type="text" asp-for="Destreza" class="form-control"/>
+                    <span asp-validation-for="Destreza" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Inteligencia" class="control-label">Inteligência</label>
+                    <input type="text" asp-for="Inteligencia" class="form-control"/>
+                    <span asp-validation-for="Inteligencia" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Sorte" class="control-label">Sorte</label>
+                    <input type="text" asp-for="Sorte" class="form-control"/>
+                    <span asp-validation-for="Sorte" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Vida" class="control-label">Vida</label>
+                    <input type="text" asp-for="Vida" class="form-control"/>
+                    <span asp-validation-for="Vida" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Salvar" class="btn btn-primary">
+                </div>
+            </form>
+        </div> <!-- Fim formulário -->
+    </div>
+</div>
