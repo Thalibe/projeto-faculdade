@@ -20566,11 +20566,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Personagem\\Index.cshtml",
       "TargetPath": "Views\\Personagem\\Index.cshtml",
       "FileKind": "mvc"

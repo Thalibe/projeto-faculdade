@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using ficha_criacao_personagem_rpg_csharp.Repositorio;
 using Dapper;
 using System.Linq;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace ficha_criacao_personagem_rpg_csharp.Controllers
 {
@@ -21,6 +21,7 @@ namespace ficha_criacao_personagem_rpg_csharp.Controllers
             _conexao = conexao;
         }
 
+        [Authorize]
         [HttpGet("Personagem/Listar")]
         public IActionResult Index()
         {

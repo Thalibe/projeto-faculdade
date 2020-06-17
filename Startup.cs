@@ -58,6 +58,10 @@ namespace ficha_criacao_personagem_rpg_csharp
 
             app.UseRouting();
 
+            // Quem é você?  
+            app.UseAuthentication();
+
+            // Verifica Permissões  
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
