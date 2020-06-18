@@ -49,7 +49,7 @@ namespace ficha_criacao_personagem_rpg_csharp.Controllers
 
                 //criar cookie
                 await HttpContext.SignInAsync(userPrincipal);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Personagem");
             }
 
             ViewBag.Message = "Credenciais inválidas...";
