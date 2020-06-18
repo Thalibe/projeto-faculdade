@@ -60,7 +60,7 @@ namespace ficha_criacao_personagem_rpg_csharp.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("UsuarioLogin", "Login");
         }
     }
 }
