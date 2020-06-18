@@ -1,9 +1,20 @@
-﻿@model  ficha_criacao_personagem_rpg_csharp.Models.UsuarioViewModel
-
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
-    
+<div class="col-md-4">
+    <div class="card-body">
+        <h1>FICHA RPG</h1>
+        <button class="btn btn-success"><i class="fa fa-group">
+        <a style="text-decoration: none; color: white;" href="./Personagem/Listar">
+             Seus Personagens
+        </i></a></button>
+
+        <button class="btn btn-primary"><i class="fas fa-sign-in-alt">
+        <a href="./Login/UsuarioLogin" style="text-decoration: none; color: white;">
+             Logar
+        </i></a></button>
+        
+    </div>
 </div>
+

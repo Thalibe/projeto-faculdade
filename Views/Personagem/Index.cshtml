@@ -2,11 +2,10 @@
 @{
     ViewData["Title"] = "Listar Personagem";
 }
-
 <div>
     <h2>Seus Personagens</h2>
 
-    <a class="btn btn-primary" data-toggle="modal" data-target="#criarPersonagem">Criar</a>
+    <a class="btn btn-primary" data-toggle="modal" data-target="#criarPersonagem"><i class="fa fa-user-plus"> Criar</i></a>
     <hr>
     
     <table class="table table-striped table-dark">
@@ -28,9 +27,9 @@
                     <td>@item.Classe</td>
                     <td>@item.Nivel</td>
                     <td>
-                        <a href="~/Personagem/Editar/@item.Id">Editar</a>
+                        <a class="btn btn-warning btn-sm" href="~/Personagem/Editar/@item.Id"><i class="fas fa-edit"> Editar</i></a>
                         <span> | </span>
-                        <a href="~/Personagem/Delete/@item.Id">Deletar</a>
+                        <a class="btn btn-danger btn-sm" href="~/Personagem/Delete/@item.Id"><i class="fas fa-trash"> Deletar</i></a>
                     </td>
                 </tr>
             }

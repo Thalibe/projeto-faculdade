@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\ficha_criacao_personagem_rpg_csharp.csproj": {}
+    "C:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\ficha_criacao_personagem_rpg_csharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\ficha_criacao_personagem_rpg_csharp.csproj": {
+    "C:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\ficha_criacao_personagem_rpg_csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
+        "projectUniqueName": "C:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
         "projectName": "ficha_criacao_personagem_rpg_csharp",
-        "projectPath": "C:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
-        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\obj\\",
+        "projectPath": "C:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
+        "packagesPath": "C:\\Users\\thali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thali\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

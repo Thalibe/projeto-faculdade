@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
+  "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\ficha_criacao_personagem_rpg_csharp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,53 +20521,53 @@
   "RootNamespace": "ficha_criacao_personagem_rpg_csharp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Personagem\\Edit.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Personagem\\Edit.cshtml",
       "TargetPath": "Views\\Personagem\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Login\\UsuarioLogin.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Login\\UsuarioLogin.cshtml",
       "TargetPath": "Views\\Login\\UsuarioLogin.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Personagem\\Index.cshtml",
+      "TargetPath": "Views\\Personagem\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Personagem\\New.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Personagem\\New.cshtml",
       "TargetPath": "Views\\Personagem\\New.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Carlos\\Documents\\Projetos\\Estudo\\Faculdade\\Projeto\\ficha_criacao_personagem_rpg_csharp\\Views\\Personagem\\Index.cshtml",
-      "TargetPath": "Views\\Personagem\\Index.cshtml",
+      "FilePath": "c:\\Users\\thali\\OneDrive\\Área de Trabalho\\Projeto_CSharp\\projeto-csharp\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

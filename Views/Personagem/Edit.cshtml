@@ -4,12 +4,10 @@
 }
 
 <div>
-
     
             <h2 class="text-center">Editar Personagem</h2>
     <hr/>
             <div class="card">
-                
                     <div class="col-md-4">
                 <div class="card-body">
             <form asp-action="Salvar">
@@ -38,42 +36,42 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="Agilidade" class="control-label">Agilidade</label>
-                    <input type="text" asp-for="Agilidade" class="form-control"/>
+                    <input type="number" asp-for="Agilidade" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Agilidade" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Ataque" class="control-label">Ataque</label>
-                    <input type="text" asp-for="Ataque" class="form-control"/>
+                    <input type="number" asp-for="Ataque" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Ataque" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Carisma" class="control-label">Carisma</label>
-                    <input type="text" asp-for="Carisma" class="form-control"/>
+                    <input type="number" asp-for="Carisma" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Carisma" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Defesa" class="control-label">Defesa</label>
-                    <input type="text" asp-for="Defesa" class="form-control"/>
+                    <input type="number" asp-for="Defesa" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Defesa" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Destreza" class="control-label">Destreza</label>
-                    <input type="text" asp-for="Destreza" class="form-control"/>
+                    <input type="number" asp-for="Destreza" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Destreza" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Inteligencia" class="control-label">Inteligência</label>
-                    <input type="text" asp-for="Inteligencia" class="form-control"/>
+                    <input type="number" asp-for="Inteligencia" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Inteligencia" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Sorte" class="control-label">Sorte</label>
-                    <input type="text" asp-for="Sorte" class="form-control"/>
+                    <input type="number" asp-for="Sorte" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Sorte" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Vida" class="control-label">Vida</label>
-                    <input type="text" asp-for="Vida" class="form-control"/>
+                    <input type="number" asp-for="Vida" class="form-control" min="5" max="100"/>
                     <span asp-validation-for="Vida" class="text-danger"></span>
                 </div>
                 <div class="form-group">
