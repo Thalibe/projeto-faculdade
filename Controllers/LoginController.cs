@@ -18,13 +18,13 @@ namespace ficha_criacao_personagem_rpg_csharp.Controllers
         }
 
         [HttpGet]
-        public IActionResult UsuarioLogin()
+        public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> UsuarioLogin([FromForm] UsuarioViewModel model)
+        public async Task<IActionResult> Index([FromForm] UsuarioViewModel model)
         {
             UsuarioViewModel usuario = null;
 

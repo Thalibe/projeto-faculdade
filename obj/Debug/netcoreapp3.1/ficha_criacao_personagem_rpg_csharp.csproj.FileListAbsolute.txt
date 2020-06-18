@@ -49,7 +49,7 @@ C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_person
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\obj\Debug\netcoreapp3.1\Razor\Views\Login\UsuarioLogin.cshtml.g.cs
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\obj\Debug\netcoreapp3.1\Razor\Views\Personagem\Index.cshtml.g.cs
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\obj\Debug\netcoreapp3.1\Razor\Views\Personagem\New.cshtml.g.cs
 C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\obj\Debug\netcoreapp3.1\Razor\Views\Personagem\Edit.cshtml.g.cs
+C:\Users\Carlos\Documents\Projetos\Estudo\Faculdade\Projeto\ficha_criacao_personagem_rpg_csharp\obj\Debug\netcoreapp3.1\Razor\Views\Login\UsuarioLogin.cshtml.g.cs
