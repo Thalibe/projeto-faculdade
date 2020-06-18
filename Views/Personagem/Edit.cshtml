@@ -1,15 +1,17 @@
 @model ficha_criacao_personagem_rpg_csharp.Models.PersonagemViewModel
 @{
-    ViewData["Title"] = "Editar produtos";
+    ViewData["Title"] = "Editar Personagem";
 }
 
 <div>
-    <h2 class="text-center">Personagem</h2>
-    
-    <hr/>
 
-    <div class="row">
-        <div class="col-md-4">
+    
+            <h2 class="text-center">Editar Personagem</h2>
+    <hr/>
+            <div class="card">
+                
+                    <div class="col-md-4">
+                <div class="card-body">
             <form asp-action="Salvar">
                 <input type="hidden" asp-for="Id" />
                 <div asp-validation-summary="ModelOnly" class="text-danger">
@@ -80,4 +82,7 @@
             </form>
         </div> <!-- Fim formulário -->
     </div>
+</div>
+</div>
+</div>
 </div>
