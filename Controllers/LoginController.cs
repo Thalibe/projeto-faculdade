@@ -57,10 +57,28 @@ namespace ficha_criacao_personagem_rpg_csharp.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public IActionResult UsuarioRegister()
+        {
+            return View();
+        }
+
+        [HttpPost("Login/Registrar")]
+        public IActionResult Post([FromForm] UsuarioViewModel model)
+        {
+
+            using (var conn = _conexao.AbrirConexao())
+            {
+                conn.Execute("INSERT INTO user(nome, email, login, senha) VALUES(@Nome, @Email, @Login, @Senha);", model);
+            }
+
+            return RedirectToAction("UsuarioLogin", "Login");
+        }
+
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("UsuarioLogin", "Login");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

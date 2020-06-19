@@ -1,0 +1,50 @@
+@model  ficha_criacao_personagem_rpg_csharp.Models.UsuarioViewModel
+
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="container">
+    <div class="" style="margin: 90px 0px 0px 0px;">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">Ficha RPG</h5>
+                <div class="card-body">
+                    <form asp-action="Registrar">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Nome" class="control-label"></label>
+                            <input type="text" asp-for="Nome" class="form-control" />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input type="text"  asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Login" class="control-label"></label>
+                            <input type="text"  asp-for="Login" class="form-control" />
+                            <span asp-validation-for="Login" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Senha" class="control-label"></label>
+                            <input type="text" type="password" asp-for="Senha" class="form-control" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input  type="submit" value="Registrar" class="btn btn-default btn-primary" />
+                        </div>
+                    </form>
+
+                </div>
+                <div class="card-footer">
+                    <div asp-validation-summary="All" class="error"></div>
+                    <br />
+                    <h2>@ViewData["Message"]</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
