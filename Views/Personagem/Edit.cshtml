@@ -31,7 +31,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="Nivel" class="control-label">Nível</label>
-                    <input type="text" asp-for="Nivel" class="form-control"/>
+                    <input type="number" asp-for="Nivel" class="form-control" min="1" max="100"/>
                     <span asp-validation-for="Nivel" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -79,7 +79,7 @@
                 </div>
             </form>
         </div> <!-- Fim formulário -->
-    </div>
+</div>
 </div>
 </div>
 </div>
